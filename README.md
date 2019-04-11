@@ -56,9 +56,7 @@ Finally, I added some final sparkly highlights...
 
 ![Figure 8: Highlights](images/img_08.png)
 
-Things here are of course very fuzzy. You can play around with your layers (opacity values, etc.) until you get a result you like.
-
-Here's my black hole!
+Things here are of course very fuzzy. You can play around with your layers (opacity values, etc.) until you get a result you like. Behold, a black hole!
 
 ![Figure 9: Finished](images/img_09.png)
 
@@ -69,7 +67,8 @@ driven graphic:
 
 <hr>
 I generated an HTML document for this document using `pandoc` and
-[this](https://gist.github.com/killercup/5917178) CSS sheet by killercup.
+[this](https://gist.github.com/killercup/5917178) CSS sheet by killercup (with a
+couple small modifications).
 
 ```bash
 pandoc README.md -c pandoc.css -so index.html

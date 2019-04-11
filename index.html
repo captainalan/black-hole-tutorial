@@ -43,9 +43,17 @@ code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Ann
 code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
 code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
   </style>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> <!-- Bootstrap -->
   <link rel="stylesheet" href="pandoc.css" type="text/css" />
 </head>
 <body>
+
+
+<!-- Wrap everything in a Bootstrap container/row/col -->
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+
 <h1 id="black-hole-image-on-a-budget">Black Hole Image on a Budget</h1>
 <h5 id="by-alan-wong-april-10-2019">By Alan Wong (April 10, 2019)</h5>
 <p>In this tutorial, we will generate an image of a black hole for a fraction of the budget of top world scientists. You don't even need a telescope for this; just go install <a href="https://www.gimp.org/">GIMP</a> for free! You can find lots of pictures of black holes online (e.g. from <a href="https://www.jpl.nasa.gov/news/news.php?feature=7372">NASA</a>). Some are real... others are not, like the ones we will make here.</p>
@@ -93,8 +101,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <img src="images/img_08.png" alt="Figure 8: Highlights" />
 <p class="caption">Figure 8: Highlights</p>
 </div>
-<p>Things here are of course very fuzzy. You can play around with your layers (opacity values, etc.) until you get a result you like.</p>
-<p>Here's my black hole!</p>
+<p>Things here are of course very fuzzy. You can play around with your layers (opacity values, etc.) until you get a result you like. Behold, a black hole!</p>
 <div class="figure">
 <img src="images/img_09.png" alt="Figure 9: Finished" />
 <p class="caption">Figure 9: Finished</p>
@@ -105,7 +112,17 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <p class="caption">Figure 10: Important Questions</p>
 </div>
 <hr>
-<p>I generated an HTML document for this document using <code>pandoc</code> and <a href="https://gist.github.com/killercup/5917178">this</a> CSS sheet by killercup.</p>
+<p>I generated an HTML document for this document using <code>pandoc</code> and <a href="https://gist.github.com/killercup/5917178">this</a> CSS sheet by killercup (with a couple small modifications).</p>
 <div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">pandoc</span> README.md -c pandoc.css -so index.html</code></pre></div>
+
+</div>
+</div>
+</div>
+
+<!-- Works with Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
