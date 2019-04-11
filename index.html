@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+  <link rel="stylesheet" href="pandoc.css" type="text/css" />
+</head>
+<body>
+<h1 id="black-hole-image-on-a-budget">Black Hole Image on a Budget</h1>
+<h5 id="by-alan-wong-april-10-2019">By Alan Wong (April 10, 2019)</h5>
+<p>In this tutorial, we will generate an image of a black hole for a fraction of the budget of top world scientists. You don't even need a telescope for this; just go install <a href="https://www.gimp.org/">GIMP</a> for free! You can find lots of pictures of black holes online (e.g. from <a href="https://www.jpl.nasa.gov/news/news.php?feature=7372">NASA</a>). Some are real... others are not, like the ones we will make here.</p>
+<h2 id="space">Space</h2>
+<p>Let's begin with dark space. Create an image with a single layer.</p>
+<div class="figure">
+<img src="images/img_01.png" alt="Figure 1: Hello Darkness" />
+<p class="caption">Figure 1: Hello Darkness</p>
+</div>
+<h2 id="reddish-blob">Reddish blob</h2>
+<p>On a new layer, use the paint brush or the ink tool to make a reddish blob. Just get an overall shape you like. This is not an exact science! Here, I just &quot;eye-balled&quot; a color I liked. Alternatively, you could pull up an official black hole image and use the color picker tool to get a closer fit.</p>
+<div class="figure">
+<img src="images/img_02.png" alt="Figure 2: Starting with a Reddish Blob" />
+<p class="caption">Figure 2: Starting with a Reddish Blob</p>
+</div>
+<p>I then applied a Gaussian Blur (radius 100px on a 640x480 px image) to my reddish blob. I adjusted the opacity of the layer to get values closer to what I liked.</p>
+<div class="figure">
+<img src="images/img_03.png" alt="Figure 3: Bluring the Reddish Blob" />
+<p class="caption">Figure 3: Bluring the Reddish Blob</p>
+</div>
+<h2 id="donut-thing-part-1">Donut thing part 1</h2>
+<p>Next, I added an orange donut thing with the paint brush or ink tool like we just did with the reddish blob. I did this on a new (transparent) layer.</p>
+<div class="figure">
+<img src="images/img_04.png" alt="Figure 4: Drawing a Donut" />
+<p class="caption">Figure 4: Drawing a Donut</p>
+</div>
+<p>I then applied a Gaussian Blur, as before with the reddish block (radius 75px).</p>
+<div class="figure">
+<img src="images/img_05.png" alt="Figure 5: Blurred Donut" />
+<p class="caption">Figure 5: Blurred Donut</p>
+</div>
+<h2 id="smiley-event-horizon">Smiley event horizon</h2>
+<p>At this point, we're at the final stage of our scientific graphic production. I repeated the same procedure of adding layers, painting, and blurring.</p>
+<div class="figure">
+<img src="images/img_06.png" alt="Figure 6: Egg Yoke Looking Thing" />
+<p class="caption">Figure 6: Egg Yoke Looking Thing</p>
+</div>
+<p>You can experiment with blur radius values to find what looks right to you.</p>
+<div class="figure">
+<img src="images/img_07.png" alt="Figure 7: Blurred Egg Yoke Thing" />
+<p class="caption">Figure 7: Blurred Egg Yoke Thing</p>
+</div>
+<p>Finally, I added some final sparkly highlights...</p>
+<div class="figure">
+<img src="images/img_08.png" alt="Figure 8: Highlights" />
+<p class="caption">Figure 8: Highlights</p>
+</div>
+<p>Things here are of course very fuzzy. You can play around with your layers (opacity values, etc.) until you get a result you like.</p>
+<p>Here's my black hole!</p>
+<div class="figure">
+<img src="images/img_09.png" alt="Figure 9: Finished" />
+<p class="caption">Figure 9: Finished</p>
+</div>
+<p>You can use your new black hole image(s) in applications like this curiosity driven graphic:</p>
+<div class="figure">
+<img src="images/img_10.png" alt="Figure 10: Important Questions" />
+<p class="caption">Figure 10: Important Questions</p>
+</div>
+<hr>
+<p>I generated an HTML document for this document using <code>pandoc</code> and <a href="https://gist.github.com/killercup/5917178">this</a> CSS sheet by killercup.</p>
+<div class="sourceCode"><pre class="sourceCode bash"><code class="sourceCode bash"><span class="ex">pandoc</span> README.md -c pandoc.css -so index.html</code></pre></div>
+</body>
+</html>
