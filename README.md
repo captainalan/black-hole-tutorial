@@ -9,6 +9,8 @@ pictures of black holes online (e.g. from
 [NASA](https://www.jpl.nasa.gov/news/news.php?feature=7372)). Some are real...
 others are not, like the ones we will make here.
 
+See the HTML/CSS deployed on [Github Pages](https://captainalan.github.io/black-hole-tutorial/).
+
 ## Space
 
 Let's begin with dark space. Create an image with a single layer.
