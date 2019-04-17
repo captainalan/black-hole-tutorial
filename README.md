@@ -68,6 +68,7 @@ driven graphic:
 ![Figure 10: Important Questions](images/img_10.png)
 
 <hr>
+
 I generated an HTML document for this document using `pandoc` and
 [this](https://gist.github.com/killercup/5917178) CSS sheet by killercup (with a
 couple small modifications).
